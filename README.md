@@ -23,6 +23,8 @@ A kata for docker image build-up + container creation through a Dockerfile
     docker stop <container_identifier>
 - The docker container could be deleted through:
     docker rm -f <container_name>
+- The docker image could be deleted through:
+    docker rmi <image_name:image_tag>
 
 # Running the serving application on a target port
 Since we created the docker container by running the docker image in a detached mode (-d),
